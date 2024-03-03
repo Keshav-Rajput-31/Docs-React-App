@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: gilroy;
+    src: url('../app/Assets/Fonts/Gilroy-Regular.ttf');
+}
+
+
+* {
+
+    font-family: gilroy;
+    user-select: none;
+
+}
