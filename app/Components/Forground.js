@@ -43,7 +43,7 @@ const Forground = () => {
     return (
         <>
 
-            <div ref={ref} className="fixed top-0 right-0 z-[3] w-full h-full flex gap-5 p-5 flex-wrap overflow-hidden">
+            <div ref={ref} className="fixed top-0 right-0 z-[3] w-full h-full flex gap-5 p-5 flex-wrap overflow-x-hidden">
 
                 {data.map((item , index)=>(
                     <Card data = {item} reference={ref}/>

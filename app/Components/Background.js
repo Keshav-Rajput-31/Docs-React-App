@@ -5,7 +5,7 @@ const Background = () => {
   return (
     <>
 
-      <div className=' bg-[#1b1b1b] w-screen h-screen fixed z-[2] overflow-hidden'>
+      <div className=' bg-[#1b1b1b] w-screen h-screen fixed z-[2] overflow-x-hidden'>
 
         <div className='py-5 text-3xl font-semibold absolute w-full top-[10%] flex justify-center text-slate-200'>Documents</div>
 
